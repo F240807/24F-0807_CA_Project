@@ -1,0 +1,4 @@
+Model,Input_Shape,Params_M,MACs_G,FLOPs_G,Max_Abs_Diff,Match_atol_1e-3
+MobileViT-S,"(1, 3, 256, 256)",5.579,1.8558,3.7116,1.22e-03,True
+MobileNetV2,"(1, 3, 256, 256)",3.505,0.41,0.82,4.98e-06,True
+LSTM (2-Layer),"(1, 128, 128)",0.924,0.1174,0.2349,7.45e-09,True
