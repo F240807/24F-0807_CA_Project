@@ -1,0 +1,4 @@
+Device,Model,Epoch,Steps,Epoch_Time_s,First_Step_ms,Steady_Median_Step_ms,Steady_P95_Step_ms,Train_Loss,Train_Acc_%,Peak_Mem_MB
+CPU,MobileViT-S,1,64,310.14,5962.34,4662.09,5494.14,1.1581,66.65,1478.0
+CPU,MobileViT-S,2,64,304.86,4783.1,4643.32,5502.94,0.4908,85.01,1475.29
+CPU,MobileViT-S,3,64,312.87,4441.07,4732.34,5719.32,0.3267,89.55,1456.85

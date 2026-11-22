@@ -1,0 +1,4 @@
+Device,Model,Epoch,Steps,Epoch_Time_s,First_Step_ms,Steady_Median_Step_ms,Steady_P95_Step_ms,Train_Loss,Train_Acc_%,Peak_Mem_MB
+GPU,MobileViT-S,1,64,6.07,120.84,76.5,79.07,1.1578,66.65,1465.53
+GPU,MobileViT-S,2,64,7.56,74.73,78.11,144.21,0.4909,84.91,1465.53
+GPU,MobileViT-S,3,64,7.07,83.85,78.84,119.63,0.3203,89.94,1465.53
