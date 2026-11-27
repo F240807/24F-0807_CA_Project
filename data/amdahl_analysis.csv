@@ -1,0 +1,12 @@
+Workload,Device,Precision,Batch_Size_or_Epoch,Compute_ms,E2E_ms,Serial_Overhead_ms,Serial_Fraction_%,Speedup_Ceiling,Speedup_2x_Compute
+MobileViT-S Inference,GPU,FP16,BS=32,58.041,61.32,3.279,5.35,18.701,1.898
+MobileNetV2 Inference,GPU,FP16,BS=32,19.08,23.387,4.307,18.42,5.43,1.689
+LSTM (2-Layer) Inference,GPU,FP16,BS=32,4.24,4.683,0.443,9.46,10.571,1.827
+MobileViT-S Inference,TPU,FP32,BS=32,54.17,99.402,45.232,45.5,2.198,1.375
+MobileNetV2 Inference,TPU,FP32,BS=32,22.716,103.607,80.891,78.07,1.281,1.123
+LSTM (2-Layer) Inference,TPU,FP32,BS=32,2.464,7.287,4.823,66.19,1.511,1.203
+MobileViT-S Inference,TPU,BF16,BS=32,32.051,54.975,22.924,41.7,2.398,1.411
+MobileNetV2 Inference,TPU,BF16,BS=32,16.064,37.895,21.831,57.61,1.736,1.269
+LSTM (2-Layer) Inference,TPU,BF16,BS=32,2.219,5.768,3.549,61.53,1.625,1.238
+MobileViT-S Training,GPU,FP32,Epoch 2,78.11,118.125,40.015,33.88,2.952,1.494
+MobileViT-S Training,TPU,FP32,Epoch 2,54.24,97.5,43.26,44.37,2.254,1.385
